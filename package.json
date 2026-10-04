@@ -2,10 +2,14 @@
   "name": "pdf-viewer",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "@vercel/blob": "^0.27.0",
-    "next": "14.2.15",
+    "next": "^14.2.35",
     "pdfjs-dist": "3.11.174",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
